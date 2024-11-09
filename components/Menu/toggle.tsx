@@ -75,7 +75,7 @@ const MobileMenu = ({
       alignItems: 'center',
     }}
   >
-    {/* <motion.div className="background" variants={sidebar} /> */}
+    
     <MenuToggle toggle={() => toggle()} isDarkMode={isDarkMode} />
   </motion.nav>
 )

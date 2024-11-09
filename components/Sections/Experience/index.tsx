@@ -13,14 +13,14 @@ const DetailSection = () => (
         fontVariantCaps: 'small-caps',
       }}
     >
-      Places i’ve worked.
+      Places i’ve learned at.
     </Heading>
     <Text variant="description">
-      Since 2016, had a privilege to work with several companies that enables me
-      to hone my skills and talents. These companies will always have a special
-      place in my heart. Currently I am working with{' '}
+      Since 2020, had a privilege to learn from many devs from youtube that enables me
+      to hone my skills and talents. These Institudes and people will always have a special
+      place in my heart. Currently I am learning in{' Governor house'}
       <Link href="https://www2.deloitte.com/" target="_blank" rel="noreferrer">
-        Deloitte
+        Governor house
       </Link>
       .
     </Text>

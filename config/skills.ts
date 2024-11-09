@@ -67,7 +67,7 @@ export const Skills: {
       icon: SiNodeDotJs,
     },
     {
-      name: 'Javascript (ES6+)',
+      name: 'Javascript ',
       icon: SiJavascript,
     },
     {
@@ -96,18 +96,6 @@ export const Skills: {
       name: 'Apollo Graphql',
       icon: SiApollographql,
     },
-    {
-      name: 'Redux',
-      icon: SiRedux,
-    },
-    {
-      name: 'VueJS',
-      icon: SiVueDotJs,
-    },
-    {
-      name: 'Ghost',
-      icon: SiGhost,
-    },
   ],
   database: [
     {
@@ -126,18 +114,7 @@ export const Skills: {
       name: 'MongoDb',
       icon: SiMongodb,
     },
-    {
-      name: 'Redis',
-      icon: SiRedis,
-    },
-    {
-      name: 'SocketIO',
-      icon: SiSocketDotIo,
-    },
-    {
-      name: 'Google Pubsub',
-      icon: SiGooglecloud,
-    },
+
   ],
   cicd: [
     {
@@ -151,18 +128,6 @@ export const Skills: {
     {
       name: 'CPanel',
       icon: SiCpanel,
-    },
-    {
-      name: 'Rancher',
-      icon: SiRancher,
-    },
-    {
-      name: 'GitlabCICD',
-      icon: SiGitlab,
-    },
-    {
-      name: 'Buildkite',
-      icon: BsQuestionSquare,
     },
   ],
   'ui frameworks': [
@@ -200,10 +165,6 @@ export const Skills: {
       name: 'Bash',
       icon: SiGnubash,
     },
-    {
-      name: 'SourceTree',
-      icon: FaSourcetree,
-    },
   ],
   mobile: [
     {
@@ -225,10 +186,6 @@ export const Skills: {
     {
       name: 'Windows Forms, WPF',
       icon: SiMicrosoft,
-    },
-    {
-      name: 'Electron',
-      icon: SiElectron,
     },
   ],
 }

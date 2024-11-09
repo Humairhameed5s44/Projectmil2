@@ -20,15 +20,15 @@ export const Experiences: {
   [key in Company]: CompanyDetail
 } = {
   Deloitte: {
-    name: 'Deloitte',
-    longName: 'Deloitte Consulthing Phils. Delivery Center',
-    subDetail: 'Consulthing Phils. Delivery Center',
-    url: 'https://www2.deloitte.com/',
-    position: 'Software Engineer Consultant',
-    duration: 'Sep 2021 - Present',
+    name: 'Governor house',
+    longName: 'Tuition Free Education Program on Latest Technologies',
+    subDetail: 'Certified Cloud Applied Generative Ai Enginer',
+    url: 'https://www.governorsindh.com/',
+    position: 'Student',
+    duration: 'Sep 2023 - Present',
     logo: {
       light: '/worked_at_logos/deloitte/Deloitte_logo_black.png',
-      dark: '/worked_at_logos/deloitte/Deloitte_logo.png',
+      dark: '/worked_at_logos/deloitte/Deloittle_logo.png',
     },
     roles: [
       <>
@@ -40,124 +40,119 @@ export const Experiences: {
       <>
         Worked as a Sitecore Backend on new{' '}
         <Link
-          aria-label="Deloitte Digital AU"
-          href="https://www.deloittedigital.com.au/"
+          aria-label="Governor sindh house"
+          href="https://www.governorsindh.com/"zzz
           target="_blank"
           rel="noreferrer"
         >
-          Deloitte Digital AU Site.
+          Governor initiative
         </Link>
       </>,
-      <>
-        Udergone training for .NET Sitecore 10,
-        Sitecore SXA and different topologies it provides.{' '} and Passed {' '}
-        <Link
-          aria-label="Sitecore 10 .NET Developer Certification"
-          href="/certification/Lawingco-Sitecore 10 NET Developer Cert.pdf"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Sitecore 10 .NET Developer Certification.
-        </Link>
-      </>,
-    ],
-  },
-  SCG: {
-    name: 'Scentregroup',
-    longName: 'Scentregroup Limited AU',
-    subDetail: 'via Prosource BPO',
-    url: 'https://www.scentregroup.com/',
-    position: 'Software Engineer',
-    duration: 'Feb 2020 - Sep 2021',
-    logo: {
-      light: '/worked_at_logos/scg/SCG_400x400.jpg',
-      dark: '/worked_at_logos/scg/SCG.png',
-    },
-    roles: [
-      <>
-        Revamping the legacy Partner Portal into a new{' '}
-        <Link
-          aria-label="Westfield Marketing Hub"
-          href="https://partner.scentregroup.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Westfield Marketing Hub
-        </Link>{' '}
-        using NextJS and Typescript. Restructuring the old express app into a
-        newer architectural design approach.
-      </>,
-      <>
-        Created multiple Contentful and Bynder extensions to improve BX process
-        better.
-      </>,
-      <>
-        Worked on maintaining{' '}
-        <Link
-          variant="primaryLink"
-          href="https://www.westfield.com.au/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Westfield
-        </Link>{' '}
-        main site and Graphql apis written in NodeJS.
-      </>,
-      <>
-        Migrating of existing marketing email related tools and batch jobs from
-        Responsys into new platform called Braze.
-      </>,
-      <>
-        Hired at early 2020, first major task was helping with selecting a new
-        marketing vendor that can scale and also enable us to have
-        personalisation as well, selecting{' '}
-        <Link
-          aria-label="Braze"
-          href="https://www.braze.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Braze
-        </Link>{' '}
-        as a result.
-      </>,
-    ],
-  },
-  Blotocol: {
-    name: 'Blotocol',
-    longName: 'Blotocol Philippines',
-    subDetail: 'formerly IVP Global Inc.',
-    url: 'https://blotocol.com/',
-    position: 'Senior Software Engineer',
-    duration: 'Nov 2016 - Feb 2020',
-    logo: {
-      light: '/worked_at_logos/ivp/blotocol_logo-dark.png',
-      dark: '/worked_at_logos/ivp/blotocol-logo-white.png',
-    },
-    roles: [
-      <>
-        Developed a Twitter Raffle Campaign / Contest Bot called Camps with
-        statistics similar to Facebook Ads.
-      </>,
-      <>
-        In 2019 got promoted as Senior Software Engineer and worked with Cryto
-        Exchange, Smart Contracts and other APIs using several techs such as
-        NodeJS, .NET Core and React.
-      </>,
-      <>
-        Create highly scalable Japanese e-commerce sites. Most notable clients
-        were TV Tokyo, Layla EC using .NET.
-      </>,
-      <>
-        Hired at 2016, Undergone Japanese language training first. Shortly
-        after, worked with in-house .NET MVC Framework called ERS.
-      </>,
-    ],
-  },
-}
-
-export const ExperiencesList = [
-  Experiences.Deloitte,
-  Experiences.SCG,
-  Experiences.Blotocol,
-]
+           <>
+           I got 95% in Q1 due to the efforts of my teacher Sir hamza syed
+           <Link
+             aria-label="Q1 result"
+             href="/kl_portfolio/public/certification/Screenshot 2024-11-10 013955.png"
+             target="_blank"
+             rel="noreferrer"
+           >
+             I dont know whats going to happen to me in Q2
+           </Link>
+         </>,
+       ],
+     },
+     SCG: {
+       name: 'Freecodecamp',
+       longName: 'freecodecamp',
+       subDetail: 'A group of devs on youtube that teach every type of computer skills',
+       url: 'https://www.freecodecamp.org/',
+       position: 'Student',
+       duration: 'Feb 2022',
+       logo: {
+         light: '/worked_at_logos/scg/SCG_400x400.png',
+         dark: '/worked_at_logos/scg/SCG.png',
+       },
+       roles: [
+         <>
+           The first course that I took on freecodecamp was on ts by hitesh 
+           <Link
+             aria-label="hitesh choudary"
+             href="https://chaicode.com/"
+             target="_blank"
+             rel="noreferrer"
+           >
+             FreeCodeCamp has been instrumental in helping me develop my coding skills from the ground up
+             Through its structured, project-based curriculum  I learned foundational programming languages like HTML, CSS, and JavaScript, as well as more advanced topics like responsive web design, data structures, algorithms, and front-end libraries. FreeCodeCamp’s hands-on approach, combined with its supportive community and wealth of coding challenges, has allowed me to practice coding regularly and build real-world projects that showcase my progress. This platform has not only equipped me with technical skills but also given me the confidence to tackle complex coding problems and continue advancing in software development.
+           </Link>{' '}
+           using NextJS and Typescript
+         </>,
+         <>
+           Created multiple failed but helpful project which helped me to improve my programming 
+           skills.
+         </>,
+         <>
+           I am currently working on mystery message web application by the help of this course
+           <Link
+             variant="nextjs"
+             href="https://www.freecodecamp.org/"
+             target="_blank"
+             rel="noreferrer"
+           >
+             the mystery message is on hold due my upcoming paper
+           </Link>{' '}
+           did I mention I am currently in class nine
+         </>,
+         <>
+           The assignment that was given I based on my protype I wanted to
+         </>,
+         <>
+           Make a website for my school so I could have class work in the exam
+           but I lost motivation to do this but this has given me some motivation
+           to do it my schools 
+           <Link
+             aria-label="Fazaia inter college"
+             href="https://www.google.com/search?q=fazaia+inter+college+korangi+creek+karachi+contact+number&sca_esv=55ac1cf8945801b9&rlz=1C1CHBF_enPK1093PK1095&sxsrf=ADLYWIJTAWOyL2CthvZ5wNqxJegcdwnQ9Q%3A1731187010365&ei=QtEvZ5vpFc2K9u8PlKKLiQo&oq=fa&gs_lp=Egxnd3Mtd2l6LXNlcnAiAmZhKgIIADIEECMYJzIKECMYgAQYJxiKBTIQEC4YgAQYxwEYJxiKBRivATIWEC4YgAQYsQMY0QMYQxiDARjHARiKBTIKEAAYgAQYQxiKBTIQEAAYgAQYsQMYQxiDARiKBTILEAAYgAQYsQMYgwEyCBAAGIAEGLEDMgsQABiABBixAxiDATILEAAYgAQYsQMYgwFIqCZQ6QRYrxNwAXgBkAEBmAGIAqABvgWqAQMyLTO4AQHIAQD4AQGYAgOgAvADwgIHECMYsAMYJ8ICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIKEC4YgAQYQxiKBcICEBAuGIAEGNEDGEMYxwEYigXCAg0QLhiABBhDGNQCGIoFmAMAiAYBkAYKkgcFMS4wLjKgB_s3&sclient=gws-wiz-serp"
+             target="_blank"
+             rel="noreferrer"
+           >
+             FIC in short
+           </Link>{' '}
+           its an army school especificly an airforce school.
+         </>,
+       ],
+     },
+     Blotocol: {
+       name: 'Code aur chai & Coding with harry',
+       longName: 'two legends of corses ',
+       subDetail: 'they provide corses in hindi and the person that run code aur has worked with freecodecamp on several occasions.',
+       url: 'https://chaicode.com/',
+       position: 'Student',
+       duration: 'Feb 2024',
+       logo: {
+         light: '/worked_at_logos/ivp/blotocol_logo-dark.png',
+         dark: '/worked_at_logos/ivp/blotocol-logo-white.png',
+       },
+       roles: [
+         <>
+           Teachers like them are the ones that motivate me to go forward and learn
+         </>,
+         <>
+           In 2020 I got my trusty laptop and since then I wanted to learn about it for the longest of time
+         </>,
+         <>
+           I dont know I decided to learn all this but I happy I only know the basics of the majority
+           but I am only 16 
+         </>,
+         <>
+          This the end for now atleast
+         </>,
+       ],
+     },
+   }
+   
+   export const ExperiencesList = [
+     Experiences.Deloitte,
+     Experiences.SCG,
+     Experiences.Blotocol,
+   ]
+   
