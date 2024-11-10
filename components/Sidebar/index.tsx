@@ -115,8 +115,8 @@ const Sidebar = () => {
               {' '}
               Thank you!
             </Text>
-            <br />I am software engineer that specializes at CSS, front
-            end integration, recently found myself studying Backend too.
+            <br />I am software engineer that specializes at CSS, front end
+            integration, recently found myself studying Backend too.
           </MotionText>
           <MotionButton
             size="lg"

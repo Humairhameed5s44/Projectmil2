@@ -75,7 +75,6 @@ const MobileMenu = ({
       alignItems: 'center',
     }}
   >
-    
     <MenuToggle toggle={() => toggle()} isDarkMode={isDarkMode} />
   </motion.nav>
 )

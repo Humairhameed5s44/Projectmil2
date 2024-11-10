@@ -1,8 +1,8 @@
-import { memo } from 'react';
-import { Heading, Text, Stack, Link, Icon, Box, VStack } from '@chakra-ui/react';
-import { motion, Variants } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { RiHeartPulseFill, RiCopyleftLine, RiGithubFill } from 'react-icons/ri';
+import { memo } from 'react'
+import { Heading, Text, Stack, Link, Icon, Box, VStack } from '@chakra-ui/react'
+import { motion, Variants } from 'framer-motion'
+import { useInView } from 'react-intersection-observer'
+import { RiHeartPulseFill, RiCopyleftLine, RiGithubFill } from 'react-icons/ri'
 
 const rimuruVariant: Variants = {
   shake: {
@@ -23,10 +23,10 @@ const rimuruVariant: Variants = {
       ease: 'easeInOut',
     },
   },
-};
+}
 
 const GetInTouch = () => {
-  const [ref, inView] = useInView();
+  const [ref, inView] = useInView()
 
   return (
     <Stack
@@ -69,7 +69,12 @@ const GetInTouch = () => {
         .
       </Text>
 
-      <Box textAlign="center" fontFamily="monospace" pt={{ base: 10, lg: 20, xl: 20 }} pb={{ base: 5, lg: 18 }}>
+      <Box
+        textAlign="center"
+        fontFamily="monospace"
+        pt={{ base: 10, lg: 20, xl: 20 }}
+        pb={{ base: 5, lg: 18 }}
+      >
         <VStack spacing={0.5}>
           <Link
             variant="description"
@@ -88,7 +93,7 @@ const GetInTouch = () => {
         </VStack>
       </Box>
     </Stack>
-  );
-};
+  )
+}
 
-export default memo(GetInTouch);
+export default memo(GetInTouch)

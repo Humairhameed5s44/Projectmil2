@@ -17,9 +17,13 @@ const useScrollDirection = (
   const [isInitialized, setIsInitialized] = useState(false)
 
   useEffect(() => {
-    const avatarContainer = document.querySelector('#Avatar') as HTMLElement | null
+    const avatarContainer = document.querySelector(
+      '#Avatar'
+    ) as HTMLElement | null
     const avatarScrollY = avatarContainer
-      ? avatarContainer.offsetTop + avatarContainer.clientHeight - AVATAR_PADD_OFFSET
+      ? avatarContainer.offsetTop +
+        avatarContainer.clientHeight -
+        AVATAR_PADD_OFFSET
       : 0 // Fallback if avatarContainer is null or undefined
 
     const threshold = 10

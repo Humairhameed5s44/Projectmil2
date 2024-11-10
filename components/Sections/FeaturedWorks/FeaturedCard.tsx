@@ -7,7 +7,6 @@ import {
   Skeleton,
   Text,
   SimpleGrid,
-  Button,
   Container,
   Stack,
   useColorModeValue,
@@ -57,7 +56,6 @@ const ProjectDescription = ({
   idx,
   title,
   description,
-  ctaUrl,
   isLeft,
 }: {
   idx?: number

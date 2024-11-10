@@ -46,8 +46,7 @@ const FeaturedWorksSection = () => {
             idx={1}
             title="Jarvis 01"
             src="/works/tobira/jarvis.png"
-            description="A failed try at making a talking chat bot using python but it did not work so I had to learn python on an advance scale 
-            still am working on it"
+            description="A failed try at making a talking chat bot using python but it did not work so I had to learn python on an advance scale still am working on it"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://tobira-app-test.netlify.app/"
             objectPosition="right 20%"
