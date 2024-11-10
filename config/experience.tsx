@@ -41,7 +41,7 @@ export const Experiences: {
         Worked as a Sitecore Backend on new{' '}
         <Link
           aria-label="Governor sindh house"
-          href="https://www.governorsindh.com/"zzz
+          href="https://www.governorsindh.com/"
           target="_blank"
           rel="noreferrer"
         >
