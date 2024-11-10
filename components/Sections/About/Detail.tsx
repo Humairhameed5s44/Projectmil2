@@ -13,14 +13,14 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react'
 import {
-  SiDotNet,
+  SiDotnet,
   SiJavascript,
   SiTypescript,
   SiGraphql,
   SiReact,
-  SiNextDotJs,
-  SiNodeDotJs,
   SiDocker,
+  SiNodedotjs,
+  SiNextdotjs,
 } from 'react-icons/si'
 import { GiCoffeePot } from 'react-icons/gi'
 import { IoMdOpen } from 'react-icons/io'
@@ -48,10 +48,10 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           fontVariantCaps: 'small-caps',
         }}
       >
-        What i do.
+        What I do.
       </Heading>
       <Text variant="description">
-        I`ve been coding professionally for {professionalYears} years now and
+        I’ve been coding professionally for {professionalYears} years now and
         currently working as a <b>Software Engineer</b> that focuses on{' '}
         <b>architecture</b>, <b>APIs</b>,{' '}
         <Tooltip
@@ -65,7 +65,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         </Tooltip>{' '}
         and even <b>front end integration</b> stuff now, how time flies!
         <br /> <br />
-        Here are few technologies that are cup of my{' '}
+        Here are a few technologies that are my cup of{' '}
         <Tooltip
           label="I only drink tea if I needed too!"
           aria-label="I hate Tea!"
@@ -81,35 +81,34 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
       <SimpleGrid columns={2} spacing={4}>
         <List spacing={3}>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiDotNet} color={emphasis} fontSize="2em" />
+            <ListIcon as={SiDotnet} color={emphasis} fontSize="2em" />
             C# - .NET.Core
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiJavascript} color={emphasis} fontSize="2em" />
-            Javascript (ES6+)
+            JavaScript (ES6+)
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiTypescript} color={emphasis} fontSize="2em" />
-            Typescript
+            TypeScript
           </ListItem>
-
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiNodeDotJs} color={emphasis} fontSize="2em" />
-            Node
+            <ListIcon as={SiNodedotjs} color={emphasis} fontSize="2em" />
+            Node.js
           </ListItem>
         </List>
         <List spacing={3}>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiGraphql} color={emphasis} fontSize="2em" />
-            Graphql
+            GraphQL
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiReact} color={emphasis} fontSize="2em" />
             React
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiNextDotJs} color={emphasis} fontSize="2em" />
-            NextJS
+            <ListIcon as={SiNextdotjs} color={emphasis} fontSize="2em" />
+            Next.js
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiDocker} color={emphasis} fontSize="2em" />
